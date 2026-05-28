@@ -99,12 +99,6 @@ https://user-images.githubusercontent.com/85615221/145667271-62195d95-64fc-428c-
 We have created front-end using Streamlit for webapp and used streamlit-webrtc which helped to deal with real-time video streams. Image captured from the webcam is sent to VideoTransformer function to detect the emotion. Then this model was deployed on heroku platform with the help of buildpack-apt which is necessary to deploy opencv model on heroku.
 
 
-| Website | Link |
-| ------ | ------ |
-| Heroku | https://face-recognition-emotion.herokuapp.com/ | 
-| Streamlit | https://share.streamlit.io/aaryant31/face_emotion_recognition/main/app.py |
-
-
 ## Conclusion
 
 * We were successfull in deploying the strealit app on heruko with the model accuracy of 66 %.
